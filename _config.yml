@@ -1,5 +1,5 @@
 title: Bruke Baraki
-description: My professional site
+description: MrTheNews Fan Page
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
