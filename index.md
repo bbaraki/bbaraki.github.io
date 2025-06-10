@@ -2,7 +2,6 @@
 layout: default
 ---
 <!-- Embed a YouTube video -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AdsGb0JUUR0" frameborder="0" allowfullscreen></iframe>
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~.
 
