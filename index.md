@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-s
+---
 ## About Me
 Hello, my name is Bruke. I am passionate in understanding how we can make robots more intelligent and enable them to be more collaborators with humans.  
 
