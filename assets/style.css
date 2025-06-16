@@ -58,3 +58,21 @@
   }
   
   
+  .resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0; /* Light gray tint */
+    color: #333; /* Dark text color */
+    text-decoration: none; /* Remove underline */
+    border: 0px solid #ccc; /* Border for the box */
+    border-radius: 0px; /* Rounded corners */
+    font-size: 1rem; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+    text-align: center; /* Center text */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.resume-button:hover {
+    background-color: #e0e0e0; /* Slightly darker gray on hover */
+    border-color: #bbb; /* Darker border on hover */
+}

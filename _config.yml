@@ -7,3 +7,11 @@ plugins:
 # Custom includes
 include:
   - _includes/head-custom.html
+
+header_links:
+- title: Home
+  url: /
+- title: Resume
+  url: /resume/
+- title: Research
+  url: /#research

@@ -2,10 +2,16 @@
 layout: default
 ---
 ---
-## About Me
-Hello, my name is Bruke. I truely commited to making robots more intelligent and enabling collaboration with us humans.
+## About Me  
+Hello, my name is Bruke. As a graduate of the University of Pennsylvania’s GRASP Lab with an MS in Robotics, I have cultivated a deep commitment to advancing the field of intelligent robotics and meaningful collaboration with human beings.
 
-Email: bbaraki2002@gmail.com
+<!-- <iframe src="assets/resume.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: 
+    <a href="assets/resume.pdf">Download PDF</a>.
+</iframe> -->
+<a href="/resume/" class="resume-button">View My Resume</a>
+
+---
 
 ## Table of Contents
 <ul class="toc">
@@ -16,7 +22,7 @@ Email: bbaraki2002@gmail.com
 
 ## Active Exploration Research at DAIRLab UPenn (2024-25)  <a id="research"></a>
 
-Perception, uniquely defined by our human experience, is the multi-modal synthesis of various senses (e.g., visual, auditory, olfactory, and haptic) to enable real-time decision-making. In recent years, both academia and industry have aimed to develop intelligent robots capable of emulating these senses for tasks such as pick-and-place operations, search and rescue missions, and dexterous manipulation. However, touch is an often underestimated perception modality compared to vision, despite the potential benefit from haptic feedback in these real-time tasks. In fact, studies have demonstrated the importantance of touch in fine manupation tasks; for example, lighting a match became nearly impossible for human subjects after their fingertips were numbed. 
+Perception, uniquely defined by our human experience, is the multi-modal synthesis of various senses (e.g., visual, auditory, olfactory, and haptic) to enable real-time decision-making. In recent years, both academia and industry have aimed to develop intelligent robots capable of emulating these senses for tasks such as pick-and-place operations, search and rescue missions, and dexterous manipulation. However, touch is an often underestimated perception modality compared to vision, despite the potential benefit from haptic feedback in these real-time tasks. In fact, studies have demonstrated the importantance of touch in fine manupation tasks; for example, lighting a match became nearly impossible for human subjects after their fingertips were numbed.
  
 In this project, I aim to understand how robots can percieve objects through tactile interactions. 
 

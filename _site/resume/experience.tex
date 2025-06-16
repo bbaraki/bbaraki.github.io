@@ -1,0 +1,103 @@
+
+%EXPERIENCE
+% \section{\textbf{Experience}}
+% \begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \textbf{University of Pennsylvania} - Philadelphia, PA. \\[2pt]
+% \textbf{Robotics Researcher} - Haptic Exploration \hfill \textbf{July 2024 - Present} \\[2pt]
+% \begin{minipage}[t]{\linewidth}
+%     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+%         \item  Developed a tactile sensing system for a multi-fingered robot, enabling characterization of objects through haptic feedback
+%         \item  Created a data processing pipeline for an optical tactile sensor for real-time force estimation
+%         \item Developed a haptic exploration algorithm using a learned dynamic model, capable of predicting discontinuous contact impulses
+%     \end{itemize}
+% \end{minipage}
+% \end{tabularx}
+
+% \begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \textbf{Robotics Researcher} - Robotic Swimmer \hfill \textbf{Feb. 2021 - May 2023} \\[2pt]
+% \begin{minipage}[t]{\linewidth}
+%     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+%         \item Improved the design of a soft-bodied robotic swimmer that utilizes jet propulsion for locomotion
+%         \item Designed a custom PCB featuring an ATSAMD21 MCU, 9-axis IMU, current sensor, motor, encoder, and SD
+% interface
+%         \item Wrote code in C++ to facilitate robotic actuation, real-time IMU sensor fusion, and data collection
+%         \item Designed and fabricated models of the robot’s body and enclosure, using CAD software
+%         \item Spoke at a symposium about this research project and presented findings at a poster presentation
+%     \end{itemize}
+% \end{minipage}
+% \end{tabularx}
+
+% \begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \textbf{Astrobotic Technology} - Pittsburgh, PA. \\[2pt]
+% \textbf{Flat Sat Intern} \hfill \textbf{May 2023 - Aug. 2023} \\[2pt]
+% \textit{Astrobotic is a space robotics company specializing in lunar payload delivery services and advanced space technologies} \\[2pt]
+% \begin{minipage}[t]{\linewidth}
+%     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+%         \item Collaborated with a cross-functional team to design and construct essential hardware for testing spacecraft performance
+%         \item Built racks and harnesses to assist in the integration of and test on a hardware-in-the-loop platform
+%         \item Designed a PCB featuring four distinct heat emulation designs, and conducted a comprehensive trade study comparing each
+% design in terms of efficiency, heat output, complexity, and cost-effectiveness
+%         \item Developed an embedded software driver to facilitate TCP packet transmission through Ethernet from a PC to the
+% ”backplane,” enabling seamless data collection from the emulation hardware
+%     \end{itemize}
+% \end{minipage}
+% \end{tabularx}
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 3.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\section{\textbf{EXPERIENCE}}
+    \begin{twocolentry}{
+        Philadelphia, PA \\
+        July 2024 - Present}
+        \textbf{DAIR Lab}, Research Assistant \\
+        \textit{DAIR Lab develops algorithms for real-time planning and control of robots in contact-rich environments, using a model-based approach through perception modalities}
+        \begin{itemize}[nosep, after=\strut, leftmargin=1em, itemsep=2pt]
+            % \item Co-developed a \textbf{tactile sensing system} to infer object geometry, pose, and coefficient of friction based on a contact-implicit learning framework called ContactNets
+            \item Contributed to the haptic exploration project, enabling robots to \textbf{perceive objects through touch}  
+            \item Used a model-based approach to estimate the properties (e.g., geometry, trajectory, and coefficient of friction) by \textbf{minimizing the loss function} from our learning framework, ContactNets
+            \item Researched \textbf{optimal model selection} that executes subsequent actions with the highest expected information gain (EIG)
+            \item Implemented a force estimation algorithm for the DenseTact 2.0 optical tactile sensor 
+            \item Validated methods using in simulation with \textbf{Drake} (robot physics sim) and hardware experiments
+                % \item Collaborated on a {tactile sensing system}.
+                % optimal model selection through observed information gain for unkown systems. 
+                % \item Collaborated on a \textbf{tactile sensing system} for a multi-fingered robotic platform to execute optimal actions with maximum expected information gain
+                % \item Developed a force estimation algorithm for the DenseTact 2.0 optical tactile sensor
+                % \item Leveraged a learned dynamics model to estimate unknown object properties (e.g., friction, geometry, inertia) through optimal contact interactions
+                % \item Developed a sim-to-real approach using Drake (robot physics simulator) and hardware experiments
+            \end{itemize}
+    \end{twocolentry}
+
+    \begin{twocolentry}{
+        Pittsburgh, PA \\
+        May 2023 - Aug 2023}
+        \textbf{Astrobotic Technology}, Hardware Development Intern \\
+        \textit{Astrobotic is a space robotics company specializing in lunar payload delivery services and space tech}
+        \begin{itemize}[nosep, after=\strut, leftmargin=1em, itemsep=2pt]
+            \item Built essential hardware to assist in the integration of and test on a hardware-in-the-loop platform
+            \item Designed a PCB featuring four distinct heat emulation designs and conducted a comprehensive trade study comparing each design in terms of efficiency, heat output, complexity, and cost
+            \item Developed an embedded software driver to facilitate TCP packet transmission through Ethernet from a PC to the ”backplane,” enabling seamless data collection from the emulation hardware
+            \end{itemize}
+    \end{twocolentry}
+
+    \begin{twocolentry}{
+        Philadelphia, PA
+        
+        Feb 2021 - May 2023}
+        \textbf{Sung Lab}, Research Assistant
+        \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+        \item Improved the design of a robotic swimmer that utilizes jet propulsion for locomotion
+        \item Designed a custom PCB featuring an ATSAMD21 MCU, 9-axis IMU, current sensor, motor, encoder.
+        \item Developed in C++ to facilitate robotic actuation, real-time IMU sensor fusion, and data collection
+        \item Designed and fabricated models of the robot’s body and enclosure using CAD software
+        \item Spoke at a symposium about this research and presented findings at a poster presentation
+            \end{itemize}
+    \end{twocolentry}

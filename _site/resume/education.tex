@@ -1,0 +1,46 @@
+% \section{\textbf{Education}}
+% \begin{tabularx}{\linewidth}{ @{}l r@{}}
+% \textbf{University of Pennsylvania} \hfill \textbf{Sept. 2022 - May 2024}\\[2pt]
+% \text{Master of Science in Engineering}\\[2pt]
+% \text{Major: Robotics - GPA: 3.85}\\[4pt]
+
+% \textbf{University of Pennsylvania} \hfill \textbf{Sept. 2020 - May 2024}\\[2pt]
+% \text{Bachelor of Science in Engineering}\\[2pt]
+% \text{Major: Mechanical Engineering - Minor: Electrical Engineering - GPA: 3.91}\\[2pt]
+% \begin{minipage}[t]{\linewidth}
+%     \begin{itemize}[nosep, after=\strut, leftmargin=1em, itemsep=2pt]
+%         \item Honors/Academic Recognition: Victor W. K. Ku Memorial Award, Rachleff Scholarship, Herbert J. and Selma W. Bernstein Class of 1945 Internship
+%     \end{itemize}
+% \end{minipage}
+% \end{tabularx}
+
+\setlength{\parskip}{3pt} % Adjusts vertical space between entries
+
+\newenvironment{threecolentry}[3][]{
+    \onecolentry
+    \def\thirdColumn{#3}
+    \setcolumnwidth{1 cm, \fill, 5 cm}
+    \begin{paracol}{3}
+    {\raggedright #2} \switchcolumn
+}{
+    \switchcolumn \raggedleft \thirdColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for three column entries
+\section{\textbf{EDUCATION}}
+    \begin{threecolentry}{\textbf{MS}}{Sept 2022 - May 2024}
+        \textbf{University of Pennsylvania}, Robotics
+            \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+                \item GPA: 3.85/4.0
+                \item \textbf{Coursework}: Computer Vision, Advanced Robotics, Feedback Control, Mechatronics, Control and Optimization in Robotics, Design of UAVs
+            \end{itemize}
+    \end{threecolentry}
+    
+    \begin{threecolentry}{\textbf{BS}}{Sept 2020 - May 2024}
+        \textbf{University of Pennsylvania}, Mechanical Engineering and Applied Mechanics
+            \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+                \item GPA: 3.91/4.0
+                 \item \textbf{Honors/Academic Recognition}: Victor W. K. Ku Memorial Award, Rachleff Scholarship, Herbert J. and Selma W. Bernstein Class of 1945 Internship
+            \end{itemize}
+    \end{threecolentry}
+
