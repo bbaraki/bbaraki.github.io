@@ -3,7 +3,9 @@ layout: default
 ---
 ---
 ## About Me
-Hello, my name is Bruke. I am passionate in understanding how we can make robots more intelligent and enable them to be more collaborators with humans.  
+Hello, my name is Bruke. I truely commited to making robots more intelligent and enabling collaboration with us humans.
+
+Email: bbaraki2002@gmail.com
 
 ## Table of Contents
 <ul class="toc">
