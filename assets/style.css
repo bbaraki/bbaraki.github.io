@@ -1,3 +1,8 @@
+.page-header {
+  background: linear-gradient(45deg, #808080, #505050);; /* Replace with your desired gradient */
+  color: #fff; /* Ensure text is readable */
+}
+
 .toc {
     position: relative;
     background-color: #f7f7f7;
@@ -75,4 +80,9 @@
 .resume-button:hover {
     background-color: #e0e0e0; /* Slightly darker gray on hover */
     border-color: #bbb; /* Darker border on hover */
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  color: #444; /* Replace with your desired color */
+  font-weight: bold; /* Optional: Make the text bold */
 }

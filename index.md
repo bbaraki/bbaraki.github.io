@@ -3,13 +3,23 @@ layout: default
 ---
 ---
 ## About Me  
-Hello, my name is Bruke. As a graduate of the University of Pennsylvania’s GRASP Lab with an MS in Robotics, I have cultivated a deep commitment to advancing the field of intelligent robotics and meaningful collaboration with human beings.
+Hello, my name is Bruke. I want to advance the field of intelligent robots and foster meaningful collaboration with human beings.
 
 <!-- <iframe src="assets/resume.pdf" width="100%" height="600px">
     This browser does not support PDFs. Please download the PDF to view it: 
     <a href="assets/resume.pdf">Download PDF</a>.
 </iframe> -->
-<a href="/resume/" class="resume-button">View My Resume</a>
+<div class="button-container">
+  <a href="/resume/" class="resume-button">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="Resume" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 8px;">
+    View My Resume
+  </a>
+
+  <a href="https://www.linkedin.com/in/bruke-baraki-268211205/" class="resume-button" target="_blank">
+    <img src="/assets/LinkedIn-Icon-Black-Logo.wine.svg" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 8px;">
+    LinkedIn Profile
+  </a>
+</div>
 
 ---
 
